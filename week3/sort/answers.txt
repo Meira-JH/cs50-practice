@@ -1,0 +1,17 @@
+'You may find it helpful to time your sorts. To do so, run time ./[sort_file] [text_file.txt].
+
+    For example, you could run time ./sort1 reversed10000.txt to run sort1 on 10,000 reversed numbers. At the end of your terminal’s output, you can look at the real time to see how much time actually elapsed while running the program.
+
+Record your answers in answers.txt, along with an explanation for each program, by filling in the blanks marked TODO.'
+
+sort1 uses: Bubble Sort
+
+How do you know?: it is much faster to sort sorted50000 than random50000, slower for random and reversed compared to sort3.
+
+sort2 uses: Merge Sort
+
+How do you know?: it is much faster than sort1 and sort3 to sort random50000.
+
+sort3 uses: Selection Sort
+
+How do you know?: almost same time to sort random50000 and sorted50000, the algorithm is slower than the sort1 for sorted data and than sort2 for random data.
